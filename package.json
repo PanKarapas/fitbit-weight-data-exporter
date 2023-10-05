@@ -1,0 +1,22 @@
+{
+  "name": "fitbit-weight-data-exporter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/PanKarapas/fitbit-weight-data-exporter.git",
+  "author": "Pan K",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@json2csv/node": "^7.0.3",
+    "moment": "^2.29.4",
+    "node-stream-zip": "^1.15.0",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2"
+  }
+}
